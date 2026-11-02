@@ -3,5 +3,10 @@ public class TeamApp {
         System.out.println("Our team application");
         System.out.println("Welcome from Student A and B!!"); 
         System.out.println("Feature added by Student BB King!");
+        printGoodbye();
+    }
+
+    public static void printGoodbye() {
+       System.out.println("Thanks for using our application!");
     }
 }
