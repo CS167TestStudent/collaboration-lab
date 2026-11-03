@@ -1,10 +1,14 @@
 public class TeamApp {
     public static void main(String[] args) { 
         printTeamInfo();
+        printWelcome();
         System.out.println("Our team application");
         System.out.println("Welcome from Student A and B!!"); 
-        System.out.println("Feature added by Student BB King!");
         printGoodbye();
+    }
+
+    public static void printWelcome() {
+        System.out.println("Welcome to our application!");
     }
 
     public static void printGoodbye() {
